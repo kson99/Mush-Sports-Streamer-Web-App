@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  background-color: var(--darkerPrimary);
+  color: white;
+  height: 80px;
+}
+
+.navbar .max-width {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar .container h1 {
+  text-align: center;
+}

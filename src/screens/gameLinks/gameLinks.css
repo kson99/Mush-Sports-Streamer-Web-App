@@ -1,0 +1,73 @@
+.gameLinks {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary);
+  color: white;
+}
+
+.gameLinks .max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gameLinks .league {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameLinks .league img {
+  width: 50px;
+  padding-right: 20px;
+}
+
+.gameLinks .teams {
+  padding-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 20px;
+  border-bottom: 5px solid cornflowerblue;
+  border-radius: 5px;
+}
+
+.gameLinks .teams div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameLinks .teams div img {
+  width: 40px;
+  margin: 0 15px;
+}
+
+.gameLinks .teams #countdown {
+  font-size: 2em;
+  line-height: 0.6em;
+  font-weight: 300;
+  color: var(--lightGrey);
+  letter-spacing: 0;
+}
+
+.gameLinks .links {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: var(--litePrimary);
+}
+
+.gameLinks .links,
+td,
+th {
+  border: 1px solid cornflowerblue;
+}
+
+.gameLinks td,
+th {
+  padding: 10px;
+}
